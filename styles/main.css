@@ -29,9 +29,9 @@ a {
     margin: auto;
     padding: 0 10px;
 }
-/* div, section, img {
+div, section, img {
     border-radius: 5px;
-} */
+}
 .header-content  {
     border-radius: 5px;
 }
@@ -39,5 +39,10 @@ a {
     border-radius: 5px;
     .photo {
         border-radius: 5px;
+    }
+}
+@media (max-width: 500px) {
+    html, body {
+        font-size: 14px;
     }
 }

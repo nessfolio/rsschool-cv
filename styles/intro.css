@@ -7,43 +7,58 @@
     justify-content: center;
     @media (max-width: 800px) {
         display: inline-block;
+        height: auto;
+        padding-top: 10px;
     }
     
     .intro-card {
-        display: inline-block;
-        background: var(--gray);
-        border: 1px solid var(--border);
-        padding: 20px;
 
-        .photo {
-            max-width: 250px;
-            object-fit: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-        }
-        h1 {
-            font-size: 30px;
-            white-space: nowrap;
-            padding: 20px 0;
-        }
-        .contacts {
-            display: none;
-            @media (max-width: 800px) {
-                display: block;
+        .intro-card-content {
+                background: var(--gray);
+                border: 1px solid var(--border);
+                padding: 20px;
+                text-align: center;
+        
+                .photo {
+                    max-width: 250px;
+                    object-fit: cover;
+        
+                }
+                h1 {
+                    font-size: 30px;
+                    white-space: nowrap;
+                    padding: 20px 0;
+                }
+                .contacts {
+                    display: none;
+                    @media (max-width: 800px) {
+                        display: block;
+                    }
+                }
+
             }
         }
-    }
-    .intro-text {
+        .intro-text {
+    
+            margin-left: 50px;
+            padding: 100px 0;
+            @media (max-width: 800px) {
+                padding: 30px 0;
+            }
+            h2 {
+                font-size: 40px;
+                margin-left: 20px;
+            }
+            p {
+                font-size: 18px;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+        }
 
-        margin-left: 50px;
-        padding: 100px 0;
-        h2 {
-            font-size: 40px;
-            margin-left: 20px;
-        }
-        p {
-            font-size: 18px;
-            margin-top: 20px;
-            margin-left: 10px;
-        }
-    }
 }
