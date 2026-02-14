@@ -1,0 +1,16 @@
+.code {
+
+    padding: 20px 0;
+    h2 {
+        font-size: 24px;
+    }
+    pre {
+        background: var(--gray);
+        border: 1px solid var(--border);
+        border-radius: 5px;
+        overflow-x: auto;
+        code {
+            color: var(--code);
+        }
+    }
+}

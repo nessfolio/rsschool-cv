@@ -6,6 +6,7 @@
 @import url(intro.css);
 @import url(stack.css);
 @import url(projects.css);
+@import url(code.css);
 * {
     margin: 0;
     padding: 0;
@@ -43,4 +44,10 @@ a {
     html, body {
         font-size: 14px;
     }
+}
+.line {
+    display: block;
+    width: 100%;
+    background: var(--border);
+    height: 1px;
 }
