@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
 @import url(header.css);
 @import url(intro.css);
-@import url(technologies.css);
+@import url(stack.css);
 * {
     margin: 0;
     padding: 0;
