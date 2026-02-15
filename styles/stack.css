@@ -1,0 +1,39 @@
+.stack {
+
+    padding: 20px 0;
+    font-size: 18px;
+    h2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    ul {
+        padding-left: 20px;
+        margin-top: 5px;
+        li {
+            display: flex;
+            align-items: center;
+        }
+    }
+    .stack-content {
+        display: flex;
+        justify-content: space-between;
+        @media (max-width: 600px) {
+            display: block;
+        }
+    }
+    .languages {
+        li {
+            margin-top: 5px;
+        }
+        @media (max-width: 600px) {
+            margin-top: 20px;
+        }
+    }
+    .stack-list {
+        li {
+            img {
+                margin-right: 5px;
+            }
+        }
+    }
+}
