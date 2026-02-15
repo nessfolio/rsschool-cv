@@ -43,11 +43,6 @@ a {
         border-radius: 5px;
     }
 }
-@media (max-width: 500px) {
-    html, body {
-        font-size: 14px;
-    }
-}
 .line {
     display: block;
     width: 100%;
