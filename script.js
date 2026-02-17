@@ -30,8 +30,6 @@ arrow.onclick = function() {
 
 
 window.addEventListener('resize', () => {
-    console.log('resize')
-    console.log(window.innerWidth)
     if (window.innerWidth > 800) {
         padding.style.display = 'none';
         change = 'block';
