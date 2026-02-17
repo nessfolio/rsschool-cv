@@ -48,9 +48,24 @@
                 padding: 20px 0;
             }
 
-            .contacts {
-                display: none;
-                @media (max-width: 800px) { display: block; }
+             .contacts{
+                display: flex;
+                align-items: center;
+                
+                ul { 
+                    display: flex;
+                        li {
+                        margin: 0 20px;
+                    }
+                    a {
+                        color: var(--link);
+                        font-weight: 300;
+                        text-align: center;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }
             }
         }
     }
