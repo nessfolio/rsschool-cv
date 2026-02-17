@@ -9,6 +9,9 @@
     background: var(--gray);
 
     position: relative;
+
+    z-index: 2;
+
     nav {
         ul {
             
@@ -57,5 +60,21 @@
     }
     a:hover {
         text-decoration: underline;
+    }
+
+    animation-name: moveBottom;
+    animation-duration: .5s;
+    animation-play-state: running;
+    animation-fill-mode: none;
+
+}
+@keyframes moveBottom {
+    0% {
+        transform: translateY(-40px);
+        background: var(--background);
+    }
+    100% {
+        transform: translateY(0);
+        background: var(--gray);
     }
 }
